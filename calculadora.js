@@ -8,6 +8,7 @@ function insert(num){
 
 function limpar(){
     document.getElementById('caixaTexto').innerHTML = "";
+    document.getElementById('acumulador').innerHTML = "";
 }
 
 function insertAcumulador(num){
