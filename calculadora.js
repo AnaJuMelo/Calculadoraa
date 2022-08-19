@@ -11,6 +11,7 @@ function limpar(){
 }
 
 function insertAcumulador(num){
+    document.getElementById('caixaTexto').innerHTML = " ";
     const size = 100;
     var numeros = new Array(size);
         var operador = document.getElementById('acumulador').innerHTML;
@@ -22,5 +23,4 @@ function insertAcumulador(num){
             alert("pilha estourada");
         }
         cont++;
-        document.getElementById('caixaTexto').innerHTML = "";
 }
