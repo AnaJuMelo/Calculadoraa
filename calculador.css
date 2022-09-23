@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: linear-gradient(45deg,rgb(200, 240, 209), rgb(115, 221, 115));
+    height: 100vh;
+    color: black;
+}
 textarea{
     width: 210px;
     height: 75px;
@@ -21,11 +26,6 @@ textarea{
     text-align: right;
     padding: 4px;
     border-radius: 5px;
-}
-.fundo{
-    background-image: linear-gradient(45deg,rgb(200, 240, 209), rgb(115, 221, 115));
-    height: 100vh;
-    color: black;
 }
 .calculadora{
     position: absolute;
